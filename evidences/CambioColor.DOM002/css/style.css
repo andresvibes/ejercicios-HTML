@@ -1,0 +1,83 @@
+@import url('https://www.tooltyp.com/8-beneficios-de-usar-imagenes-en-nuestros-sitios-web/');
+
+
+*{
+    font-family: "poppins", sans-serif;
+}
+
+body {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+
+.btn{
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+    background-color: antiquewhite;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    color:black;
+    cursor: pointer;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0.8 green, blue, alpha),
+                0 0 10px rgba(0, 0, 0.8 green, blue, alpha);
+}
+
+.btn:active{
+    outline: none;
+    position: relative;
+    top: 10px;
+    left: 2px;
+    box-shadow: none;
+}
+
+body {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+
+.btmn{
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+    background-color: antiquewhite;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    color:black;
+    cursor: pointer;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0.8 green, blue, alpha),
+                0 0 10px rgba(0, 0, 0.8 green, blue, alpha);
+}
+
+
+.btmn:active{
+    outline: none;
+    position: relative;
+    top: 10px;
+    left: 2px;
+    box-shadow: none;
+}
+
+.perro1,
+.perro2{
+
+    width: 300px;
+    height: auto;
+
+}             

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:linear-gradient(135deg,#24228a,#2a8aca);
+}
+
+.container{
+    width:450px;
+    background:#fff;
+    border-radius:20px;
+    padding:30px;
+}
+
+.title{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.title h1{
+    font-size:35px;
+}
+
+.title img{
+    width:50px;
+}
+
+.todo-list-bar{
+    display:flex;
+    background:#ececec;
+    border-radius:30px;
+    overflow:hidden;
+    margin-bottom:20px;
+}
+
+.todo-list-bar input{
+    flex:1;
+    border:none;
+    outline:none;
+    background:transparent;
+    padding:18px;
+    font-size:16px;
+}
+
+.todo-list-bar button{
+    border:none;
+    background:#110d0d;
+    color:white;
+    padding:0 30px;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:bold;
+    border-radius:30px;
+}
+
+ul{
+    list-style:none;
+}
+
+ul li{
+    position:relative;
+    padding:15px 50px;
+    font-size:22px;
+    cursor:pointer;
+    user-select:none;
+}
+
+ul li::before{
+    content:"";
+    position:absolute;
+    width:22px;
+    height:22px;
+    left:10px;
+    top:50%;
+    transform:translateY(-50%);
+    background-image:url("/images/checked.jpg");
+    background-size:cover;
+}
+
+ul li.checked{
+    text-decoration:line-through;
+    color:rgb(92, 82, 82);
+}
+
+ul li.checked::before{
+    background-image:url("/images/unchecked.jpg");
+}
+
+.delete-btn{
+    position:absolute;
+    right:15px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:24px;
+    cursor:pointer;
+}
+
+.delete-btn:hover{
+    color:rgb(55, 3, 124);
+}

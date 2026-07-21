@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registro de aprendiz</h1>
+        <p>Nombre completo</p>
+        <input type="text" id="name" placeholder="nombre">
+
+        <p>Correo electronico</p>
+        <input type="email" id="email" placeholder="correo@gmail.com">
+
+        <p>Rol de la Plataforma</p>
+        <select name="seleccionar" id="rol">
+            <option value="">Seleccione un rol...</option>
+            <option value="rol">Administrador</option>
+            <option value="rol">Desarrollador</option>
+            <option value="rol">Diseñador</option>
+        </select>
+            <button id="register">Registrar usuario</button>
+            <div id="result" style="display: none; text-align: center;">
+                <img src="/img/imagen2.png" alt="Success">
+                <h2>¡Usuario Registrado!</h2>
+                <br>
+                <h5>Esta pagina se cerrará automaticamente... bye</h5>
+                <br>
+                <hr>
+                <br>
+
+                <div class="container-secondary">
+                <p id="Name"></p>
+                <p id="Email"></p>
+                <p id="Rol"></p>
+                </div>
+            </div>
+
+    </div>
+
+</body>
+<script src="js/script.js"></script>
+
+</html>
