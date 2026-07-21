@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+
+    <div class="container-header">
+        <header>
+
+            <div class="logo">
+                <a href="#">Andrescito</a>
+            </div>
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                    <li><a href="#quiensoy" onclick="seleccionar()">¿Quien soy?</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </header>
+    </div>
+    
+    <section id="inicio" class="inicio">
+
+        <div class="container-banner">
+
+            <div class="container-img">
+                <img src="img/andres1.jpeg" alt="Foto de Andrés">
+            </div>
+
+            <h1>Andrés Villanueva</h1>
+
+            <h2>Aprendiz del Tecnólogo ADSO - 3314621</h2>
+
+            <div class="redes">
+                <a href="https://www.facebook.com/andres.villanueva.492855" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i></a>
+
+                <a href="https://x.com/@AndrsVi8139067" target="_blank">
+                    <i class="fa-brands fa-twitter"></i></a>
+
+                <a href="https://www.instagram.com/andresvillanueva304" target="_blank">
+                    <i class="fa-brands fa-instagram"></i></a>
+
+                <a href="https://www.tiktok.com/@andres._.6650" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-tiktok"></i></a>
+
+                <a href="https://wa.me/573213186650" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp"></i></a>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+    <section id="sobremi" class="sobremi">
+
+        <div class="container-section">
+
+            <h2>Sobre Mi</h2>
+
+            <p>
+                <span>Hola, soy Andrés.</span>
+                Soy aprendiz del SENA en el Tecnólogo ADSO. Me apasiona el desarrollo web y
+                actualmente llevo aproximadamente 9 meses de formación.
+            </p>
+
+            <div class="fila">
+
+                <div class="col">
+
+                    <h3>Datos Personales</h3>
+
+                    <ul>
+
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            29 / 10 / 2009
+                        </li>
+
+                        <li>
+                            <strong>Teléfono</strong>
+                            +57 321 318 6650
+                        </li>
+
+                        <li>
+                            <strong>Email</strong>
+                            andres2764279@gmail.com
+                        </li>
+
+                        <li>
+                            <strong>Website</strong>
+                            www.KAvilla.dev
+                        </li>
+
+                        <li>
+                            <strong>Dirección</strong>
+                            Garzón, Huila, Colombia
+                        </li>
+
+                        <li>
+                            <strong>Cargo</strong>
+                            Aprendiz
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col">
+
+                    <h3>Intereses</h3>
+
+                    <div class="container-intereses">
+
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-guitar"></i>
+                            <span>Música</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-tree"></i>
+                            <span>Naturaleza</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>Tecnologia</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Fotografía</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-user-group"></i>
+                            <span>Amigos</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Amor</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button>
+                Descargar CV
+                <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+
+        </div>
+
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container-section">
+            <h2>skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                            <span>Comunicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="skill">
+                            <span>Trabajo en equipo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="skill">
+                            <span>Creatividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="skill">
+                            <span>Dedicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="skill">
+                            <span>Proyect Management</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum" class="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Software analyst</h4>
+                        <span class="casa">Centro agroempresarial y desarrollo pecuario del Huila</span>
+                        <span class="fecha">2025 - 2026</span>
+                        <p>JavaScript developer</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>graphic designer</h4>
+                        <span class="casa">Centro agroempresarial y desarrollo pecuario del Huila</span>
+                        <span class="fecha">2025 - 2026</span>
+                        <p>Handling basic designs on platforms like Photoshop.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>English A2</h4>
+                        <span class="casa">Centro agroempresarial y desarrollo pecuario del Huila</span>
+                        <span class="fecha">2025 - 2026</span>
+                        <p>basic command of skills such as listening and speaking</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Coffee picker</h4>
+                        <span class="casa">My dad's farm</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>Expert handling of coffee harvesting skills</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Cleaner</h4>
+                        <span class="casa">Mi house</span>
+                        <span class="fecha">2009 - 2026</span>
+                        <p>proficiency in skills such as sweeping, mopping, cooking, and cleaning, among others</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Musician</h4>
+                        <span class="casa">"Alpha Music" music academy</span>
+                        <span class="fecha">2023 - 2026</span>
+                        <p>Intermediate-level proficiency in piano, vocal technique, and drums.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container-section">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Ejercicio de desarrollo de sofware</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Ejercicio de desarrollo de sofware</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Ejercicio de desarrollo de sofware</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Ejercicio de desarrollo de sofware</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Ejercicio de desarrollo de sofware/h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Ejercicio de desarrollo de sofware</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <div class="container-section">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="email" placeholder="Numero Telefonico">
+                    <input type="text" placeholder="Direccion de Correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje"></textarea>
+                    <button>Enviar
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <div class="col">
+                    <img src="img/ubicación3.jpeg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Garzon, Huila, Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: +57 321 318 6650
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: andres2764279@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+
+    <section id="quiensoy" class="quiensoy">
+        <div class="contenedor">
+            <a href="quien soy yo/index.html" target="_blank" class="boton">¿Quien soy yo?</a>
+            
+        </div>
+    </section>
+    
+</body>
+</html>
