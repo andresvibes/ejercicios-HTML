@@ -86,6 +86,4 @@ Si deseas comunicarte conmigo:
 
 ---
 
-## 📄 Licencia
-
 Este proyecto fue desarrollado con fines educativos y para uso como portafolio personal.
