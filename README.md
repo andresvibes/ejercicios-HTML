@@ -20,24 +20,23 @@ Este proyecto fue desarrollado con el objetivo de presentar mi perfil como desar
 
 ```
 Portafolio.DOM/
-│
-├── css/
-│   └── estilos.css
-│
-├── js/
-│   └── script.js
-│
-├── img/
-│   └── imágenes del proyecto
-│
-├── evidences/
-│   └── evidencias y recursos
-│
-├── quiensoyyo/
-│   └── archivos de la sección "Sobre mí"
-│
-├── index.html
-└── README.md
+ css/   
+     estilos.css
+
+ js/
+      script.js
+
+ img/
+      imágenes del proyecto
+
+ evidences/
+      evidencias y recursos
+
+quiensoyyo/
+      "Sobre mí"
+
+ index.html
+README.md
 ```
 
 ---
@@ -56,43 +55,7 @@ Portafolio.DOM/
 
 ---
 
-## 📸 Vista previa
 
-Aquí puedes agregar una captura del proyecto.
-
-> Ejemplo:
-
-```
-img/portafolio.png
-```
-
-Después puedes mostrarla así:
-
-```md
-![Vista previa](img/portafolio.png)
-```
-
----
-
-## ⚙️ Cómo ejecutar el proyecto
-
-1. Clona el repositorio
-
-```bash
-git clone https://github.com/andresvibes/Portafolio.DOM.git
-```
-
-2. Ingresa a la carpeta
-
-```bash
-cd Portafolio.DOM
-```
-
-3. Abre el archivo `index.html` en tu navegador.
-
-También puedes utilizar la extensión **Live Server** de Visual Studio Code para una mejor experiencia.
-
----
 
 ## 📱 Responsive
 
@@ -116,10 +79,10 @@ Desarrollador Web en formación.
 
 Si deseas comunicarte conmigo:
 
-- 📧 Correo: *Agrega aquí tu correo*
-- 💼 LinkedIn: *Agrega aquí tu perfil*
-- 📷 Instagram: *Agrega aquí tu perfil*
-- 💬 WhatsApp: *Agrega aquí tu enlace*
+- 📧 Correo: *andres2764279@gmail.com*
+- 💼 LinkedIn: *KAvilla*
+- 📷 Instagram: *https://www.instagram.com/andresvillanueva30*
+- 💬 WhatsApp: *https://wa.me/573213186650*
 
 ---
 
