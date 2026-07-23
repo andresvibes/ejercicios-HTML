@@ -864,3 +864,64 @@ footer .arriba{
     background-color: #0b4e91;
 }
 
+.misbros {
+   
+    background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgba(61, 123, 158, 0.8));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bros-img {
+    border-radius: 50%; 
+    overflow: hidden;   
+    width: 350px; 
+    height: 350px;
+    margin: auto;
+
+}
+
+.bros-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+.misbros .container-bros{
+    padding: 60px;
+    background-color: #3f3c3c;
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.misbros .container-bros img{
+    margin-top: 40px;
+    border: 5px solid #7690be;
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+}
+.container-info{
+    margin-top: 30px;
+    max-width: 700px;
+    text-align: center;
+    font-family: 'Righteous';
+}
+
+.contenido-bros a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 1px;
+    font-size: 20px;
+    transition: 3s;
+}
